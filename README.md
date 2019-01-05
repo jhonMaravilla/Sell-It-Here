@@ -13,13 +13,13 @@
 - Once they created an account, they can sell or browse for a product they wanted to buy.
 
 
-Post product
+  - Post product
 <p align="center">
   <img src="ScreenShot/sell.png" height="300px" width="600px">
 </p>
 
 
-Buy a product
+  - Buy a product
 <p align="center">
   <img src="ScreenShot/buy.png" height="300px" width="600px">
 </p>
