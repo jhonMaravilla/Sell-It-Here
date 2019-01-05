@@ -11,14 +11,8 @@
 
 
 - Once they created an account, they can sell or browse for a product they wanted to buy.
-  * Post product
-<p align="center">
-  <img src="ScreenShot/sell.png" height="300px" width="600px">
-</p>
-   * Buy a product
-<p align="center">
-  <img src="ScreenShot/buy.png" height="300px" width="600px">
-</p>
+  * Post product <p align="center"> <img src="ScreenShot/sell.png" height="300px" width="600px"> </p>
+  * Buy a product <p align="center"> <img src="ScreenShot/buy.png" height="300px" width="600px"> </p>
 
 
 - They can check their transaction history, edit their profile, and view or reply to messages.
