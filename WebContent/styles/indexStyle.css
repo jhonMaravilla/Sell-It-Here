@@ -1,0 +1,229 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	font-family: Catamaran;
+}
+
+#header {
+	position: relative;
+	height: 300px;
+	background: #94a70d;
+	/* padding: 1em 1em;
+  box-sizing: border-box; */
+}
+
+#header img {
+	position: absolute;
+	height: 190px;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#header #logo {
+	position: absolute;
+	text-align: center;
+	top: 82px;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #ffffff;
+	font-size: 100px;
+}
+/* ------- Login/ Logout ----------- */
+#login_out {
+	position: relative;
+	float: right;
+	z-index: 50;
+	margin: 2em 2em;
+}
+
+#login_link:hover {
+	background: rgb(255, 63, 85);
+	color: aliceblue;
+}
+
+#login_link {
+	float: right;
+	border: 2px solid rgb(253, 253, 253);
+	padding: 10px;
+	border-radius: 10px;
+	text-decoration: none;
+	color: rgb(253, 253, 253);
+}
+/* --- log in --- */
+#login_state {
+	position: relative;
+	/* float: right; */
+	/* margin: 2em 2em; */
+}
+
+#login_state button {
+	background: transparent;
+	font-size: 18px;
+	padding: 5px 10px 5px 20px;
+	border: none;
+	outline: none;
+	color: white;
+}
+
+#login_state button i {
+	margin: 0 5px;
+}
+
+#user_div {
+	display: none;
+	position: absolute;
+	width: 150px;
+	/* height: 150px; */
+	right: 0;
+	margin: 5px 0 0 0;
+	padding: 30px 0px 10px;
+	/* padding-top: 30px; */
+	filter: drop-shadow(0px 4px 6px rgb(73, 72, 72));
+	text-align: left;
+	list-style-type: none;
+}
+
+#user_div::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: -1;
+	border-radius: 4px;
+	-webkit-clip-path: polygon(74% 9%, 88% 0, 92% 9%, 100% 9%, 100% 100%, 0 100%, 0 9%);
+	clip-path: polygon(74% 9%, 88% 0, 92% 9%, 100% 9%, 100% 100%, 0 100%, 0 9%);
+	background: rgb(255, 255, 255);
+}
+
+#user_div li {
+	/* margin: 10px 0; */
+	
+}
+
+#user_div li a {
+	display: block;
+	padding: 10px 20px;
+	color: black;
+	text-decoration: none;
+}
+
+#user_div li:hover a {
+	background: rgb(253, 125, 145);
+	color: white;
+}
+
+#signout {
+	border-top: 1.5px solid rgb(207, 205, 205);
+}
+
+/* =========== MAIN ================= */
+#categories ul {
+	display: flex;
+	justify-content: center;
+	padding: 0;
+	height: 100px;
+	list-style-type: none;
+}
+
+#categories li {
+	position: relative;
+	height: 70px;
+	width: 90px;
+	margin: 0 5px;
+	padding: 0;
+	margin-left:20px;
+}
+
+#categories a {
+	display: block;
+	width: 100%;
+	text-decoration: none;
+	color: #000;
+	/* background-color: pink; */
+	overflow-wrap: break-word;
+	text-align: center;
+}
+
+#categories .icons {
+	height: 80px;
+	width: 80px;
+	background: yellow;
+	border-radius: 50px;
+}
+
+/*------- Recent posts list -----*/
+#recent_posts {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#recent_posts ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	list-style: none;
+	overflow-x : scroll;
+}
+#recent_posts li{
+	height: 210px;
+}
+
+#recent_posts .item {
+	position: relative;
+	width: 190px;
+	margin: 5px;
+}
+
+#recent_posts .item a {
+	text-decoration: none;
+	color: black;
+}
+
+#recent_posts li .img {
+	position: relative;
+	width: 160px;
+	height: 160px;
+}
+
+#recent_posts .img img {
+	max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+#recent_posts .item_price{
+	position: absolute;
+	bottom: 0;
+}
+
+.index-banner {
+	width: 100%;
+	height: calc(100vh - 100px);
+	background-image: url(/Sell_It_Here/Images/index_img_1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: table;
+}
+
+@media only screen and (min-width: 1000px) {
+	header 
+	.header-brand {
+		float: left;
+		margin: 20px 0;
+		text-align: left;
+		line-height: 38px;
+		padding: 0px 20px 0px 40px;
+		border-right: 3px solid #111;
+	}
+	  .index-banner{
+    height: 350px;
+  }
+}

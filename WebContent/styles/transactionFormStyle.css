@@ -1,0 +1,160 @@
+@charset "ISO-8859-1";
+
+.wrapper {
+	width: 1000px;
+	margin: 0 auto;
+	font-family: Catamaran;
+}
+
+.content {
+	width: 80%;
+	margin: 2em auto;
+	display: grid;
+	grid-template-areas: 'big small';
+	grid-template-columns: 1fr 400px;
+}
+
+.small {
+	grid-area: small;
+	background: #111;
+	color: #fff;
+	padding: 1.5em;
+}
+
+.small .sum {
+	font-weight: bold;
+}
+
+.sum-item, .total {
+	width: 100%;
+	position: relative;
+	margin: 15px 0 25px;
+}
+
+.small table {
+	width: 100%;
+	color: #fff;
+	border-collapse: collapse;
+}
+
+.small table td {
+	overflow-wrap: break-word;
+	line-height: 38px;
+}
+
+.small table td.left {
+	text-align: right;
+}
+
+.small .total tr {
+	border-top: 1px solid #6b6b6b;
+}
+
+.small .form p {
+	text-align: center;
+	margin: 5px;
+}
+
+.small .form form {
+	margin: 5px
+}
+
+.small .form input {
+	display: block;
+	width: 100%;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 5px;
+	border: none;
+	border-radius: 3px;
+	color: white;
+	background: #F95402;
+}
+
+#cancelbtn {
+	background: #f3f3f3;
+	color: #111;
+}
+
+.small .form input:hover, #cancelbtn:hover {
+	background: #E34A6B;
+	color: #f3f3f3;
+}
+
+.big {
+	grid-area: big;
+	/* background: yellow; */
+	position: relative;
+	padding: 0 15px 0 0;
+}
+
+.big>h2 {
+	margin: 0 0 5px 0;
+	background: #f3f3f3;
+	padding: 15px 5px 6px;
+	font-size: 18px;
+	line-height: 36px;
+}
+
+.big .cart {
+	width: 100%;
+}
+
+.big .cart .item {
+	width: 100%;
+	display: grid;
+	grid-template-areas: 'img-box item-info';
+	grid-template-columns: 110px 1fr;
+}
+
+.item {
+	padding: 1em 0;
+	border-bottom: 1px solid #b9b8b8;
+}
+
+.item .img-box {
+	grid-area: img-box;
+	width: 110px;
+	height: 110px;
+	position: relative;
+	background: green;
+}
+
+img {
+	width: 110px;
+	height: 110px;
+}
+
+
+.item .item-info {
+	grid-area: item-info;
+	display: grid;
+	grid-template-areas: 'name name price' 'desc desc desc'
+		'seller seller city';
+}
+
+.item-info>div {
+	padding: 10px 10px 0px 10px;
+}
+
+.item-info .b1 {
+	grid-area: name;
+}
+
+.item-info .b2 {
+	grid-area: price;
+	text-align: right;
+}
+
+.item-info .b3 {
+	grid-area: desc;
+}
+
+.item-info .b4 {
+	grid-area: seller;
+}
+
+.item-info .b5 {
+	grid-area: city;
+	text-align: right;
+}

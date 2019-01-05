@@ -1,0 +1,108 @@
+@charset "ISO-8859-1";
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.wrapper{
+  width: 1000px;
+  margin: 0 auto;
+  font-family: Catamaran;
+}
+.content{
+  display: grid;
+  grid-template-areas:'nav main';
+  /* grid-template-rows: 60px 1fr ; */
+  grid-template-columns: 150px 1fr;
+  /* grid-gap: 10px; */
+  margin: 10px auto;
+  box-shadow: 3px 10px 34px -5px rgba(84,83,84,1);
+}
+
+.content > div{
+  min-height: 400px;
+}
+
+.side-nav{
+  grid-area: nav;
+}
+.side-nav #title{
+  font-weight: bold;
+  /* background: #111;
+  color: #f3f3f3; */
+  padding: 10px 10px;
+
+}
+
+.side-nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.side-nav ul li{
+  padding: 5px 10px;
+}
+.side-nav ul li:hover{
+  text-decoration: underline;
+}
+
+.side-nav ul li.active{
+  color: orange;
+}
+
+.transaction-box{
+  grid-area: main;
+  height: 600px;
+  background: #f3f3f3;
+
+}
+
+.transaction-box .table-name{
+  width: 800px;
+  margin: 20px auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.table-wrapper{
+  width: 800px;
+  margin: 10px auto;
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.tbody{
+  height: 400px;
+  overflow-y: auto;
+  width:100%;
+}
+
+.tbody table{
+  width: 100%;
+  border-collapse: collapse;
+}
+.tbody table tr {
+  border-bottom: 1px solid #d3cece;
+}
+.tbody td{
+  width: 25%;
+  padding:10px 0px 10px 25px;;
+  overflow-wrap: break-word;
+}
+.header{
+  width: 100%;
+  height: 40px;
+  border-top: 2px solid #9b9b9b;
+  border-bottom: 2px solid #9b9b9b;
+}
+.header div{
+  width: 25%;
+  float: left;
+  padding: 10px 10px 10px 30px;
+  box-sizing: border-box;
+}
+
+#buy-list{
+  display: none;
+}

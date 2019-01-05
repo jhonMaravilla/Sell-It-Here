@@ -1,0 +1,50 @@
+@charset "ISO-8859-1";
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#content {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	background: white;
+}
+
+.card {
+	width: 180px;
+	margin: 9px;
+	position: relative;
+	border: 1px solid;
+}
+
+.card img {
+	width: 100%;
+}
+
+.card .item-name {
+	margin: 10px 0px 5px;
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+.card .item-price {
+	margin: 5px 0;
+	padding-left: 10px;
+}
+
+.product-trend-label {
+	content: "";
+	color: white;
+	background: orange;
+	font-size: 12px;
+	line-height: 28px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 7px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	z-index: 3;
+}

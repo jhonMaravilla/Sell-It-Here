@@ -1,0 +1,238 @@
+@charset "ISO-8859-1";
+
+body {
+	margin: 0;
+	font-family: Roboto, Helvetica, Arial, sans-serif;
+	background-color: white;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+
+/* NAVBAR CODE */
+#navBar {
+	margin-top: -20px;
+	height: 85px;
+	background-color: #eeeeee;
+}
+
+#navBar ol {
+	margin-left: 450px;
+}
+
+.horizontal {
+	padding-left: 50px;
+	display: inline;
+	margin-top: 100px;
+	/*border:1px solid black; */
+}
+
+#center a {
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#center a:hover {
+	border-radius: 5px;
+	background-color: #e0e0e0;
+}
+
+#center {
+	padding-top: 20px;
+	padding-left: 100px;
+}
+
+/* CONTENT CODE */
+/* EDIT PROFILE TABLE */
+#content {
+	width: 80%;
+	min-height:300px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#center3{
+	margin:0 auto;
+}
+
+#editTable {
+	padding: 5px;
+}
+
+#editTable{
+	margin-bottom: 5px;
+}
+
+#user{
+	width:100px;
+	text-align:center;
+	height: 100px;
+	border-right:1px solid #e0e0e0;
+	padding-right: 100px;
+}
+
+#mess{
+	width:700px;
+	height: 100px;
+	text-align:center;
+	border-right:1px solid #e0e0e0;
+}
+
+#date{
+	width:150px;
+	height: 100px;
+	padding-left: 100px;
+	text-align:center;
+}
+
+.horizontal2{
+	padding-left: 80px;
+	display: inline;
+	margin-top: 100px;
+	/*border:1px solid black; */
+}
+
+#center2 a {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#center2 a:hover {
+	border-bottom: 7px solid rgb(255, 63, 85);
+}
+
+#center2 {
+	padding-top: 20px;
+	padding-left: 300px;
+	padding-bottom: 40px;
+}
+
+/* EDIT ATTRIBUTES TABLE */
+.labelWidth {
+	width: 300px;
+	padding-bottom: 15px;
+}
+
+.textWidth {
+	width: 500px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.textWidth2 {
+	width: 200px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+.textWidth3 {
+	width: 100px;
+	height: 30px;
+	margin-top: 5px;
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+input:hover {
+	border: 2px solid rgb(255, 63, 85);
+}
+
+input:focus {
+	border: 3px solid rgb(255, 63, 85);
+}
+
+
+.divCenter {
+	margin-left: 200px;
+}
+
+#locationPicker {
+	width: 510px;
+	height: 35px;
+	margin-top: 5px;
+	padding-left: 10px;
+	border: 1px solid black;
+	border-radius: 3px;
+}
+
+#locationPicker:hover {
+	border: 2px solid rgb(255, 63, 85);
+}
+
+#locationPicker:focus {
+	border: 3px solid rgb(255, 63, 85);
+}
+
+#saveChanges {
+	margin-left: 695px;
+	height: 50px;
+	width: 150px;
+	font-size: 15px;
+	border: 2px solid rgb(255, 63, 85);
+	color: rgb(255, 63, 85);
+	background-color: white;
+}
+
+#saveChanges:hover {
+	background: rgb(255, 63, 85);
+	color: aliceblue;
+}
+
+/* MESSAGE BUTTON */
+#messButton{
+  border: none;
+  width:100%;
+  height:100%;
+  padding: 0;
+  background: none;
+  font-size:22px;
+}
+
+#messButton:hover{
+	background-color: #eeeeee;
+}
+
+
+/* Footer Code */
+#footer {
+	margin-top: 100px;
+	width: 100%;
+	height: 150px;
+	background-color: #e0e0e0;
+	border-top: 1px solid #dcdcdc;
+}
+
+.footlabel {
+	font-size: 20px;
+}
+
+.floatRight {
+	float: right;
+	margin-right: 20px;
+}
+
+.floatRight2 {
+	float: right;
+	margin-right: 310px;
+}
+
+.footLogo {
+	height: 40px;
+	width: 80px;
+}
