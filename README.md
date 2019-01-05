@@ -17,6 +17,7 @@
 <p align="center">
   <img src="ScreenShot/sell.png" height="300px" width="600px">
 </p>
+
   - Buy a product
 <p align="center">
   <img src="ScreenShot/buy.png" height="300px" width="600px">
